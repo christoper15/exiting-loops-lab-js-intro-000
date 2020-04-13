@@ -13,7 +13,7 @@ function breakOut(array, changeValue, stopValue) {
 
 function keepGoing(array, changeValue, skipValue) {
   let i = 0;
-  while (i < array.length -1) {
+  while (i < array.length) {
     if (array[i] === skipValue) {
       i++
       continue
