@@ -28,7 +28,7 @@ function keepGoing(array, changeValue, skipValue) {
 function findBy(array, findFn) {
   var x = findFn();
   let i = 0;
-  while (i < array.length -1) {
+  while (i < array.length) {
     if (array[i] === x) {
       return array[i];
     } else {
