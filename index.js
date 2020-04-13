@@ -30,7 +30,7 @@ function findBy(array, callback) {
   let i = 0;
   while (i < array.length) {
     if (array[i] === x) {
-      return array[i];
+      return x;
     } else {
       i++
     }
