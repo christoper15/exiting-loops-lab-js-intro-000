@@ -15,11 +15,12 @@ function keepGoing(array, changeValue, skipValue) {
   let i = 0;
   while (i < array.length -1) {
     if (array[i] === skipValue) {
-      continue;
+      i++
+      continue
     } else {
       array[i] = changeValue;
+      i++
     }
-    i++
   }
   return array;
 }
