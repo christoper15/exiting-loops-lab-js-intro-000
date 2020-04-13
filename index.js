@@ -26,7 +26,7 @@ function keepGoing(array, changeValue, skipValue) {
 }
 
 function findBy(array, callback) {
-  var x = callback();
+  const x = callback();
   let i = 0;
   while (i < array.length) {
     if (array[i] === x) {
