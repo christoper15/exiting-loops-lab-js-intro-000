@@ -32,7 +32,8 @@ function findBy(array, findFn) {
     if (array[i] === x) {
       return array[i];
     } else {
-      return null;
+      i++
     }
   }
+  return null;
 }
